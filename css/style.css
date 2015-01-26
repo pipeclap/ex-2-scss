@@ -39,30 +39,32 @@ h1 {
   font-family: sans-serif;
   text-align: center;
   font-size: 100px;
-  color: grey; }
+  color: grey;
+  text-decoration: none; }
 
-/* line 29, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
+/* line 30, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
 .felipeicons {
   text-align: center;
-  font-size: 100px; }
+  font-size: 100px;
+  text-decoration: none; }
 
-/* line 34, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
+/* line 36, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
 body {
   background: #222 url("http://25.media.tumblr.com/a408ad9af259cf827ed4599d60bcb0a9/tumblr_myebwtELvb1st5lhmo1_1280.jpg") no-repeat fixed center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 40, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
+/* line 42, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
 .social {
   position: absolute;
   width: 100%;
-  top: 60%;
+  top: 70%;
   text-align: center;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
-/* line 48, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
+/* line 50, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
 .social .link {
   display: inline-block;
   vertical-align: middle;
@@ -89,8 +91,19 @@ body {
     -webkit-transform: translateX(10px) rotate(360deg);
         -ms-transform: translateX(10px) rotate(360deg);
             transform: translateX(10px) rotate(360deg); }
+  /* line 28, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/mixins */
+  .social .link span {
+    color: #fff;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
 
-/* line 52, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
+/* line 54, /Users/pipeclap/Desktop/Final Web Development/ex-2-scss/scss/components/main */
 .social .link.facebook {
   background-color: #3B5998;
   color: white; }

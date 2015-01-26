@@ -25,4 +25,13 @@
   margin-left: -5px;
   transform: translateX(10px) rotate(360deg);
 	}
+	span {		
+	color: $color;		
+	display: block;		
+	position: absolute;		
+	text-align: center;		
+	top: 50%;		
+	left: 50%;		
+	transform: translate(-50%, -50%);		
+	}
 }

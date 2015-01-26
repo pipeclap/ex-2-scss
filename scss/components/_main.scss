@@ -24,11 +24,13 @@ h1{
   text-align: center;
   font-size: 100px;
   color: grey;
+  text-decoration: none;
 }
 
 .felipeicons{
   text-align: center;
   font-size: 100px;
+  text-decoration: none;
 }
 
 body {
@@ -40,7 +42,7 @@ body {
 .social {
   position: absolute;
   width: 100%;
-  top: 60%;
+  top: 70%;
   text-align: center;
   transform: translateY(-50%);
 }
